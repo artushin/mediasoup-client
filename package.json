@@ -1,6 +1,6 @@
 {
   "name": "mediasoup-client",
-  "version": "2.0.6",
+  "version": "2.0.12",
   "description": "mediasoup client side JavaScript SDK",
   "author": "Iñaki Baz Castillo <ibc@aliax.net> (https://inakibaz.me)",
   "contributors": [
@@ -14,22 +14,23 @@
   },
   "main": "lib-es5/index.js",
   "dependencies": {
-    "bowser": "^1.9.1",
+    "bowser": "^1.9.2",
     "debug": "^3.1.0",
     "random-number": "0.0.9",
-    "sdp-transform": "^2.3.0"
+    "sdp-transform": "^2.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-plugin-transform-builtin-classes": "^0.6.1",
     "babel-preset-env": "^1.6.1",
-    "browserify": "^14.5.0",
-    "eslint": "^4.14.0",
+    "browserify": "^16.0.0",
+    "eslint": "^4.17.0",
     "eslint-plugin-import": "^2.8.0",
-    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
-    "gulp-babel": "^7.0.0",
-    "gulp-eslint": "^4.0.0",
-    "gulp-header": "^1.8.9",
-    "gulp-plumber": "^1.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-header": "^2.0.1",
+    "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
