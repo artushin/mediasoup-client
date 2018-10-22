@@ -44,6 +44,7 @@ Request:
   target: 'room',
   peerName: 'myname',
   rtpCapabilities: {},
+  spy: false,
   appData: Any
 }
 ```
@@ -85,6 +86,7 @@ Request:
   method: 'createTransport',
   target: 'peer',
   id: 1111,
+  direction: 'send', // 'send'/'recv'.
   options: {},
   dtlsParameters: {}, // Optional.
   appData: Any
@@ -208,11 +210,7 @@ Request:
 }
 ```
 
-Response:
-
-```js
-{}
-```
+Response: (empty)
 
 
 ### updateProducer
